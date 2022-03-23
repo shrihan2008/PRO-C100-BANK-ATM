@@ -10,6 +10,9 @@ class  Atm:
        print("Money after Withdrawl is",nemMoney)   
     def cash1(self):
        print("Pin Number")
+    def balance(self):
+        print(money)
 atm=Atm("1000","1")
 print(atm.cash())      
 print(atm.cash1())    
+print(atm.balance())    
